@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F3581F4295B91E8008D3936 /* TodosARApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3581F3295B91E8008D3936 /* TodosARApp.swift */; };
+		2F3581F4295B91E8008D3936 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3581F3295B91E8008D3936 /* AppMain.swift */; };
 		2F3581F6295B91E8008D3936 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3581F5295B91E8008D3936 /* ContentView.swift */; };
 		2F3581F8295B91E9008D3936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F3581F7295B91E9008D3936 /* Assets.xcassets */; };
 		2F3581FB295B91E9008D3936 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F3581FA295B91E9008D3936 /* Preview Assets.xcassets */; };
@@ -15,7 +15,7 @@
 
 /* Begin PBXFileReference section */
 		2F3581F0295B91E8008D3936 /* TodosAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodosAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F3581F3295B91E8008D3936 /* TodosARApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosARApp.swift; sourceTree = "<group>"; };
+		2F3581F3295B91E8008D3936 /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
 		2F3581F5295B91E8008D3936 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2F3581F7295B91E9008D3936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F3581FA295B91E9008D3936 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		2F3581F2295B91E8008D3936 /* TodosAR */ = {
 			isa = PBXGroup;
 			children = (
-				2F3581F3295B91E8008D3936 /* TodosARApp.swift */,
+				2F3581F3295B91E8008D3936 /* AppMain.swift */,
 				2F3581F5295B91E8008D3936 /* ContentView.swift */,
 				2F3581F7295B91E9008D3936 /* Assets.xcassets */,
 				2F3581F9295B91E9008D3936 /* Preview Content */,
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F3581F6295B91E8008D3936 /* ContentView.swift in Sources */,
-				2F3581F4295B91E8008D3936 /* TodosARApp.swift in Sources */,
+				2F3581F4295B91E8008D3936 /* AppMain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +270,7 @@
 				DEVELOPMENT_TEAM = 4BP826FJGX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to camera for AR";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +300,7 @@
 				DEVELOPMENT_TEAM = 4BP826FJGX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to camera for AR";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
